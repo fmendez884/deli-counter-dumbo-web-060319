@@ -17,7 +17,7 @@ def line(katz_deli)
   newline = []
   i = 0
   while ( i < katz_deli.length)
-    newline.push("#{i+1}. #{katz_deli}")
+    newline.push("#{i+1}. #{katz_deli[i]}")
     i += 1
   end
     if katz_deli.length == 0
